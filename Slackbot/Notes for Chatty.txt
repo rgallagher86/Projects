@@ -1,4 +1,5 @@
 Notes for Chatty
+Created new slack env
 Created slack bot
 added dependencies
 created new project
