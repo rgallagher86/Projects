@@ -11,11 +11,17 @@ print(SLACK_APP_TOKEN)
 print(SLACK_BOT_TOKEN)
 
 app = App(token=SLACK_BOT_TOKEN)
+
 @app.event("app_mention")                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 def mention_handler(body, say):
-        say('Hello World!')
+        say('How can I help you?')
 
 
+
+
+
+
+# Start the app
 if __name__ == "__main__":
         handler = SocketModeHandler(app, SLACK_APP_TOKEN)
         handler.start()
