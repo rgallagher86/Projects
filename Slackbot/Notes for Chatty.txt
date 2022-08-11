@@ -1,0 +1,6 @@
+Notes for Chatty
+Created slack bot
+added dependencies
+created new project
+created folder and script
+pushed my commits
