@@ -11,7 +11,14 @@ print(SLACK_APP_TOKEN)
 print(SLACK_BOT_TOKEN)
 
 app = App(token=SLACK_BOT_TOKEN)
+@app.event("app_mention")                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+def mention_handler(body, say):
+        say('Hello World!')
 
+
+if __name__ == "__main__":
+        handler = SocketModeHandler(app, SLACK_APP_TOKEN)
+        handler.start()
 # print(str(token))
 
 #Slackbottoken = ()
