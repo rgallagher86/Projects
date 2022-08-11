@@ -19,6 +19,3 @@ def mention_handler(body, say):
 if __name__ == "__main__":
         handler = SocketModeHandler(app, SLACK_APP_TOKEN)
         handler.start()
-# print(str(token))
-
-#Slackbottoken = ()
