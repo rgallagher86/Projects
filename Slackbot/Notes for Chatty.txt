@@ -5,3 +5,5 @@ added dependencies
 created new project
 created folder and script
 pushed my commits
+created OKTA token for api calls
+create OKTA script that calls api for get request
